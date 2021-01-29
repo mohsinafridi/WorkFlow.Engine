@@ -11,19 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orchestrator", "Orchestrato
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E83D2955-A6B9-4885-AA3A-583E05551BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{D4438D04-B769-481E-8132-EDA4E1F81D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Infrastructure.Persistence\Repository.csproj", "{D4438D04-B769-481E-8132-EDA4E1F81D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Engine.Orchestrator", "Workflow.Engine.Orchestrator\Workflow.Engine.Orchestrator.csproj", "{62F5C3E2-C096-413E-AB3F-DE245ACD4D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orchestrator", "Workflow.Engine.Orchestrator\Orchestrator.csproj", "{62F5C3E2-C096-413E-AB3F-DE245ACD4D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Engine.API", "Workflow.Engine.API\Workflow.Engine.API.csproj", "{79C33626-13AC-4513-8D45-AB48A81BFEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "Workflow.Engine.API\API.csproj", "{79C33626-13AC-4513-8D45-AB48A81BFEDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Engine.Core", "Workflow.Engine.Core\Workflow.Engine.Core.csproj", "{A2F89838-6056-4E9E-BCD0-A3DAAD13D8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Workflow.Engine.Core\Domain.csproj", "{A2F89838-6056-4E9E-BCD0-A3DAAD13D8D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Engine.Application", "Workflow.Engine.Application\Workflow.Engine.Application.csproj", "{77F42C18-A861-4DF2-94D8-62109BF06F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Workflow.Engine.Application\Service.csproj", "{77F42C18-A861-4DF2-94D8-62109BF06F23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scheduler", "Scheduler", "{2ACFB56C-6B3A-4796-894C-835094FFB8F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Engine.Scheduler", "Workflow.Engine.Scheduler\Workflow.Engine.Scheduler.csproj", "{DEB345C3-41DD-465A-A966-97ED5D69B129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "Workflow.Engine.Scheduler\Scheduler.csproj", "{DEB345C3-41DD-465A-A966-97ED5D69B129}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5A921B3F-44E6-4E44-96CA-96027FE55BD5}"
 EndProject
